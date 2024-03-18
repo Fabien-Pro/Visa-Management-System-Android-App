@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="6dp"
+    tools:context=".MainActivity3">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search here ....">
+
+    </androidx.appcompat.widget.SearchView>
+
+        <ListView
+            android:id="@+id/ApplicantListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/black"
+            android:dividerHeight="2dp"
+            android:layout_marginTop="40dp"
+            android:listSelector="@color/White1"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.697" />
+    </RelativeLayout>

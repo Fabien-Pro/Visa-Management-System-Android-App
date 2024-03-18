@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Visa Management System</string>
+    <string name="available_visa">\t Available Visa</string>
+    <string name="apply_for_visa_today">\t Apply for visa today</string>
+    <string name="united_states_us">\t United States (US)</string>
+    <string name="canada">\tCanada</string>
+    <string name="apply_now">Apply Now</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="visa_management_system">\n\n\t Visa Management System</string>
+    <string name="australia">Australia  </string>
+    <string name="united_kingdom_uk">\t United Kingdom(UK)</string>
+    <string name="view_more">View More</string>
+    <string name="application_deadline">\n\t Application deadline \n\t 07/08/2023</string>
+    <string name="visa_application_form">Visa Application Form</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="date_of_travel">Date of travel</string>
+    <string name="purpose_of_visit">Purpose of visit</string>
+    <string name="date_of_issue">Date of issue</string>
+    <string name="date_of_expiry">Date of expiry</string>
+    <string name="create_account">Create Account</string>
+    <string name="country_residence">Country of residence</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="view_data">View Data</string>
+    <string name="Check_Box">To complete your application, you must have bellow documents, Check All</string>
+    <string name="list_of_all_applicants">List of All Applicants</string>
+
+</resources>

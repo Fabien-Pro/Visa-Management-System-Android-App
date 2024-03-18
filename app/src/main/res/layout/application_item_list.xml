@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="313dp"
+        android:layout_height="767dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#DAD8D8"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textViewID2"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:text="ID"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewID"
+            android:layout_width="293dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:text="ID"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="291dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_Name"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_Email"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Email"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Residence/Country"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_Res_country"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Residence/Country"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="293dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="20dp"
+            android:text="Date of Birth"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_Dob"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:inputType="date"
+            android:text="Date Of Birth"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Purpose of Visit"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_Pov"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Purpose of Visit"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="288dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="20dp"
+            android:text="Date of Travel"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_Dot"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:inputType="date"
+            android:text="Date of travel"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="290dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:text="Date of Issue"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_Doi"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:inputType="date"
+            android:text="Date of issue"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="293dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Date of Expiry"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_Doe"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:inputType="date"
+            android:text="Date of expiry"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:background="#DAD8D8"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Edit"
+                android:layout_width="139dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/blue"
+                android:text="Update"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button_Delete"
+                android:layout_width="136dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:background="@color/blue"
+                android:text="Delete"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
